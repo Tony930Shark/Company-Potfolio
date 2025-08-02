@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closeloop Clone - Ideas. Solutions. Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="assets/Screenshot 2025-07-21 222154.png" height="50px" />
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="home">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="about">About</a>
+                        </li>
+                        <li class="nav__item nav__dropdown">
+                            <a href="#" class="nav__link" data-page="services">Services <i class="fas fa-chevron-down"></i></a>
+                            <ul class="nav__dropdown-menu">
+                                <li><a href="#" data-page="services-custom">Custom Software</a></li>
+                                <li><a href="#" data-page="services-commerce">Digital Commerce</a></li>
+                                <li><a href="#" data-page="services-ai">Generative AI</a></li>
+                                <li><a href="#" data-page="services-salesforce">Salesforce</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="insights">Insights</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="careers">Careers</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="workshop">Workshop</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link" data-page="contact">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="nav__toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- HOME PAGE -->
+        <section class="page active" id="home-page">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div>
+                    <img src="assets/xr-7499160_1280.jpg"/>
+                </div>
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">IDEAS. SOLUTIONS. ENGINEERING</h1>
+                        <p class="hero__subtitle">Bringing Awesome Ideas to Life!</p>
+                        <div class="hero__pillars">
+                            <div class="pillar">
+                                <i class="fas fa-lightbulb"></i>
+                                <h3>Innovation</h3>
+                            </div>
+                            <div class="pillar">
+                                <i class="fas fa-cogs"></i>
+                                <h3>Technology</h3>
+                            </div>
+                            <div class="pillar">
+                                <i class="fas fa-users"></i>
+                                <h3>Collaboration</h3>
+                            </div>
+                            <div class="pillar">
+                                <i class="fas fa-rocket"></i>
+                                <h3>Excellence</h3>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn--primary btn--lg" data-page="contact">Get Started</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Grid -->
+            <section class="services-grid section">
+                <div class="container">
+                    <h2 class="section__title">Our Services</h2>
+                    <div class="grid grid--4">
+                        <div class="service-card card">
+                            <i class="fas fa-code service-card__icon"></i>
+                            <h3>Custom Software Development</h3>
+                            <p>Tailored solutions for your unique business needs</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-shopping-cart service-card__icon"></i>
+                            <h3>Digital Commerce</h3>
+                            <p>E-commerce platforms that drive sales</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-brain service-card__icon"></i>
+                            <h3>Generative AI</h3>
+                            <p>AI-powered solutions for modern businesses</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-cloud service-card__icon"></i>
+                            <h3>Salesforce Solutions</h3>
+                            <p>CRM implementation and customization</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-mobile-alt service-card__icon"></i>
+                            <h3>Mobile Development</h3>
+                            <p>Native and cross-platform mobile apps</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-shield-alt service-card__icon"></i>
+                            <h3>Cybersecurity</h3>
+                            <p>Protecting your digital assets</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-chart-line service-card__icon"></i>
+                            <h3>Data Analytics</h3>
+                            <p>Transform data into actionable insights</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-server service-card__icon"></i>
+                            <h3>Cloud Solutions</h3>
+                            <p>Scalable cloud infrastructure</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-robot service-card__icon"></i>
+                            <h3>DevOps & Automation</h3>
+                            <p>Streamline your development workflow</p>
+                        </div>
+                        <div class="service-card card">
+                            <i class="fas fa-headset service-card__icon"></i>
+                            <h3>Technical Support</h3>
+                            <p>24/7 support for your applications</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Metrics Section -->
+            <section class="metrics section">
+                <div class="container">
+                    <div class="grid grid--4">
+                        <div class="metric">
+                            <div class="metric__number">500+</div>
+                            <div class="metric__label">Valued Customers</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric__number">1000+</div>
+                            <div class="metric__label">Projects Delivered</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric__number">150+</div>
+                            <div class="metric__label">Team Members</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric__number">15</div>
+                            <div class="metric__label">Global Offices</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Slider -->
+            <section class="testimonials section">
+                <div class="container">
+                    <h2 class="section__title">What Our Clients Say</h2>
+                    <div class="testimonials__slider" id="testimonials-slider">
+                        <div class="testimonial active">
+                            <p>"Closeloop transformed our business with their innovative solutions. Highly recommended!"</p>
+                            <cite>- John Smith, CEO TechCorp</cite>
+                        </div>
+                        <div class="testimonial">
+                            <p>"Outstanding development team with excellent project management skills."</p>
+                            <cite>- Sarah Johnson, CTO InnovateLab</cite>
+                        </div>
+                        <div class="testimonial">
+                            <p>"Professional, reliable, and delivered beyond our expectations."</p>
+                            <cite>- Michael Brown, Founder StartupX</cite>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technologies Banner -->
+            <section class="technologies section">
+                <div class="container">
+                    <h2 class="section__title">Technologies We Use</h2>
+                    <div class="tech-logos">
+                        <div class="tech-logo">React</div>
+                        <div class="tech-logo">Node.js</div>
+                        <div class="tech-logo">Python</div>
+                        <div class="tech-logo">AWS</div>
+                        <div class="tech-logo">Docker</div>
+                        <div class="tech-logo">Kubernetes</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Banner -->
+            <section class="cta section">
+                <div class="container">
+                    <div class="cta__content">
+                        <h2>Ready to bring your ideas to life?</h2>
+                        <p>Let's discuss your project and see how we can help</p>
+                        <a href="#" class="btn btn--primary btn--lg" data-page="contact">Start Your Project</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section class="page" id="about-page">
+            <div class="hero hero--small">
+                <div class="hero__background" style="background-image: url('https://source.unsplash.com/1200x400/?team,office')"></div>
+                <div class="container">
+                    <div class="hero__content">
+                        <h1>We help you bring your awesome ideas to life!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section">
+                <div class="container">
+                    <div class="about-content">
+                        <h2>Who We Are</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="team section">
+                <div class="container">
+                    <h2 class="section__title">Our Team</h2>
+                    <div class="grid grid--3">
+                        <div class="team-card card">
+                            <div class="team-card__avatar">
+                                <img src="https://source.unsplash.com/150x150/?portrait,man" alt="John Doe">
+                            </div>
+                            <h3>John Doe</h3>
+                            <p class="team-card__title">CEO & Founder</p>
+                            <p>Visionary leader with 15+ years in technology</p>
+                        </div>
+                        <div class="team-card card">
+                            <div class="team-card__avatar">
+                                <img src="https://source.unsplash.com/150x150/?portrait,woman" alt="Jane Smith">
+                            </div>
+                            <h3>Jane Smith</h3>
+                            <p class="team-card__title">CTO</p>
+                            <p>Expert in software architecture and innovation</p>
+                        </div>
+                        <div class="team-card card">
+                            <div class="team-card__avatar">
+                                <img src="https://source.unsplash.com/150x151/?portrait,man" alt="Mike Johnson">
+                            </div>
+                            <h3>Mike Johnson</h3>
+                            <p class="team-card__title">Head of Engineering</p>
+                            <p>Leading our technical teams to excellence</p>
+                        </div>
+                        <div class="team-card card">
+                            <div class="team-card__avatar">
+                                <img src="https://source.unsplash.com/150x152/?portrait,woman" alt="Sarah Wilson">
+                            </div>
+                            <h3>Sarah Wilson</h3>
+                            <p class="team-card__title">Design Director</p>
+                            <p>Creating beautiful and intuitive user experiences</p>
+                        </div>
+                        <div class="team-card card">
+                            <div class="team-card__avatar">
+                                <img src="https://source.unsplash.com/150x153/?portrait,man" alt="David Brown">
+                            </div>
+                            <h3>David Brown</h3>
+                            <p class="team-card__title">Project Manager</p>
+                            <p>Ensuring projects deliver on time and budget</p>
+                        </div>
+                        <div class="team-card card">
+                            <div class="team-card__avatar">
+                                <img src="https://source.unsplash.com/150x154/?portrait,woman" alt="Lisa Davis">
+                            </div>
+                            <h3>Lisa Davis</h3>
+                            <p class="team-card__title">Business Analyst</p>
+                            <p>Bridging business needs with technical solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History Timeline -->
+            <section class="history section">
+                <div class="container">
+                    <h2 class="section__title">Our History</h2>
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="timeline__year">1996-2016</div>
+                            <div class="timeline__content">Founded and grew into a leading software consultancy</div>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__year">2017</div>
+                            <div class="timeline__content">Expanded into AI and machine learning solutions</div>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__year">2020</div>
+                            <div class="timeline__content">Launched our digital transformation practice</div>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__year">2021</div>
+                            <div class="timeline__content">Opened new offices in Europe and Asia</div>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__year">2022</div>
+                            <div class="timeline__content">Achieved industry recognition for innovation</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Methodology Accordion -->
+            <section class="methodology section">
+                <div class="container">
+                    <h2 class="section__title">Our Methodology</h2>
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span>Mission</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion__content">
+                                <p>To empower businesses through innovative technology solutions that drive growth and efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span>Vision</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion__content">
+                                <p>To be the global leader in digital transformation and software innovation.</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span>Values</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion__content">
+                                <p>Excellence, Innovation, Integrity, Collaboration, and Customer Success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- SERVICES OVERVIEW PAGE -->
+        <section class="page" id="services-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Our Services</h1>
+                    <p>Comprehensive solutions for your digital transformation</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="grid grid--2">
+                        <div class="service-overview-card card" data-page="services-custom">
+                            <h3>Custom Software Development</h3>
+                            <p>Fast-track your custom software development with our expert team</p>
+                            <a href="#" class="btn btn--primary">Learn More</a>
+                        </div>
+                        <div class="service-overview-card card" data-page="services-commerce">
+                            <h3>Digital Commerce</h3>
+                            <p>Transform your business with cutting-edge e-commerce solutions</p>
+                            <a href="#" class="btn btn--primary">Learn More</a>
+                        </div>
+                        <div class="service-overview-card card" data-page="services-ai">
+                            <h3>Generative AI</h3>
+                            <p>Harness the power of AI to revolutionize your business</p>
+                            <a href="#" class="btn btn--primary">Learn More</a>
+                        </div>
+                        <div class="service-overview-card card" data-page="services-salesforce">
+                            <h3>Salesforce Solutions</h3>
+                            <p>Maximize your CRM potential with Salesforce expertise</p>
+                            <a href="#" class="btn btn--primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- CUSTOM SOFTWARE SERVICE PAGE -->
+        <section class="page" id="services-custom-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Fast-track Your Custom Software Development</h1>
+                    <p>Build scalable, secure, and innovative software solutions</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="grid grid--4">
+                        <div class="metric">
+                            <div class="metric__number">200+</div>
+                            <div class="metric__label">Projects Completed</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric__number">250+</div>
+                            <div class="metric__label">Happy Clients</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric__number">70M+</div>
+                            <div class="metric__label">Lines of Code</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric__number">100%</div>
+                            <div class="metric__label">Success Rate</div>
+                        </div>
+                    </div>
+                    <div class="service-features">
+                        <h2>Our Services Include:</h2>
+                        <ul class="feature-list">
+                            <li>Full-stack web application development</li>
+                            <li>Enterprise software solutions</li>
+                            <li>API development and integration</li>
+                            <li>Legacy system modernization</li>
+                            <li>Quality assurance and testing</li>
+                            <li>Maintenance and support</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- DIGITAL COMMERCE SERVICE PAGE -->
+        <section class="page" id="services-commerce-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Digital Commerce Solutions</h1>
+                    <p>Drive sales with powerful e-commerce platforms</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="sneak-peek">
+                        <h2>Sneak Peek</h2>
+                        <div class="grid grid--3">
+                            <div class="metric">
+                                <div class="metric__number">50M+</div>
+                                <div class="metric__label">Transactions Processed</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric__number">99.9%</div>
+                                <div class="metric__label">Uptime</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric__number">300%</div>
+                                <div class="metric__label">Average ROI</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--2">
+                        <div class="commerce-service card">
+                            <h3>E-commerce Platform Development</h3>
+                            <p>Custom online stores built for performance</p>
+                        </div>
+                        <div class="commerce-service card">
+                            <h3>Payment Gateway Integration</h3>
+                            <p>Secure and seamless payment processing</p>
+                        </div>
+                        <div class="commerce-service card">
+                            <h3>Mobile Commerce Apps</h3>
+                            <p>Native mobile shopping experiences</p>
+                        </div>
+                        <div class="commerce-service card">
+                            <h3>Inventory Management</h3>
+                            <p>Real-time stock and order management</p>
+                        </div>
+                        <div class="commerce-service card">
+                            <h3>Analytics & Reporting</h3>
+                            <p>Data-driven insights for growth</p>
+                        </div>
+                        <div class="commerce-service card">
+                            <h3>Multi-channel Integration</h3>
+                            <p>Unified commerce across all channels</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- GENERATIVE AI SERVICE PAGE -->
+        <section class="page" id="services-ai-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Generative AI Solutions</h1>
+                    <p>Transform your business with cutting-edge artificial intelligence</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="grid grid--2">
+                        <div class="ai-service card">
+                            <h3>AI Chatbots & Assistants</h3>
+                            <p>Intelligent conversational interfaces for customer service</p>
+                        </div>
+                        <div class="ai-service card">
+                            <h3>Content Generation</h3>
+                            <p>Automated content creation for marketing and communications</p>
+                        </div>
+                        <div class="ai-service card">
+                            <h3>Document Processing</h3>
+                            <p>AI-powered document analysis and extraction</p>
+                        </div>
+                        <div class="ai-service card">
+                            <h3>Predictive Analytics</h3>
+                            <p>Machine learning models for business insights</p>
+                        </div>
+                        <div class="ai-service card">
+                            <h3>Computer Vision</h3>
+                            <p>Image and video analysis for automated workflows</p>
+                        </div>
+                        <div class="ai-service card">
+                            <h3>Natural Language Processing</h3>
+                            <p>Text analysis and understanding capabilities</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- SALESFORCE SERVICE PAGE -->
+        <section class="page" id="services-salesforce-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Salesforce Solutions</h1>
+                    <p>Maximize your CRM potential with expert Salesforce services</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="grid grid--2">
+                        <div class="salesforce-service card">
+                            <h3>Salesforce Implementation</h3>
+                            <p>Complete setup and configuration of Salesforce CRM</p>
+                        </div>
+                        <div class="salesforce-service card">
+                            <h3>Custom Development</h3>
+                            <p>Tailored Salesforce apps and integrations</p>
+                        </div>
+                        <div class="salesforce-service card">
+                            <h3>Data Migration</h3>
+                            <p>Seamless transfer of your existing data</p>
+                        </div>
+                        <div class="salesforce-service card">
+                            <h3>Training & Support</h3>
+                            <p>Comprehensive user training and ongoing support</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- PORTFOLIO PAGE -->
+        <section class="page" id="portfolio-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Our Portfolio</h1>
+                    <p>Showcasing our best work and success stories</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="grid grid--3">
+                        <div class="portfolio-card card" data-case="1">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x250/?ecommerce,shopping" alt="E-commerce Platform">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>E-commerce Platform</h3>
+                                <p>Modern online shopping experience for retail chain</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="2">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x251/?fintech,banking" alt="Banking App">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Banking Mobile App</h3>
+                                <p>Secure and user-friendly mobile banking solution</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="3">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x252/?healthcare,medical" alt="Healthcare System">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Healthcare Management System</h3>
+                                <p>Comprehensive patient management platform</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="4">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x253/?logistics,supply" alt="Logistics Platform">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Logistics Platform</h3>
+                                <p>Real-time tracking and supply chain optimization</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="5">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x254/?education,learning" alt="Learning Platform">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Online Learning Platform</h3>
+                                <p>Interactive educational platform for universities</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="6">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x255/?analytics,dashboard" alt="Analytics Dashboard">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Analytics Dashboard</h3>
+                                <p>Real-time business intelligence and reporting</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="7">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x256/?manufacturing,industry" alt="Manufacturing System">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Manufacturing Control System</h3>
+                                <p>IoT-enabled production line management</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="8">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x257/?social,networking" alt="Social Platform">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Social Networking Platform</h3>
+                                <p>Community-driven social platform for professionals</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="portfolio-card card" data-case="9">
+                            <div class="portfolio-card__image">
+                                <img src="https://source.unsplash.com/400x258/?travel,booking" alt="Travel App">
+                            </div>
+                            <div class="portfolio-card__content">
+                                <h3>Travel Booking App</h3>
+                                <p>Comprehensive travel planning and booking solution</p>
+                                <button class="btn btn--primary portfolio-modal-trigger">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- INSIGHTS PAGE -->
+        <section class="page" id="insights-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Insights & Blog</h1>
+                    <p>Stay updated with the latest technology trends and insights</p>
+                </div>
+            </div>
+            <section class="section">
+                <div class="container">
+                    <div class="grid grid--3">
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x200/?artificial,intelligence" alt="AI Trends">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>The Future of AI in Business</h3>
+                                <p>Exploring how artificial intelligence is transforming industries and creating new opportunities...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x201/?cloud,computing" alt="Cloud Computing">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>Cloud Migration Best Practices</h3>
+                                <p>A comprehensive guide to successfully migrating your infrastructure to the cloud...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x202/?cybersecurity,security" alt="Cybersecurity">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>Cybersecurity in 2025</h3>
+                                <p>Understanding the evolving threat landscape and how to protect your business...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x203/?devops,automation" alt="DevOps">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>DevOps Automation Strategies</h3>
+                                <p>Streamline your development process with effective automation techniques...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x204/?mobile,development" alt="Mobile Development">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>Mobile-First Development</h3>
+                                <p>Why mobile-first approach is crucial for modern application development...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x205/?data,analytics" alt="Data Analytics">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>Data Analytics Revolution</h3>
+                                <p>How businesses are leveraging data analytics for competitive advantage...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x206/?blockchain,technology" alt="Blockchain">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>Blockchain Beyond Cryptocurrency</h3>
+                                <p>Exploring practical applications of blockchain technology in various industries...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x207/?agile,development" alt="Agile">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>Agile Development Methodologies</h3>
+                                <p>Best practices for implementing agile methodologies in your development team...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                        <article class="blog-card card">
+                            <div class="blog-card__image">
+                                <img src="https://source.unsplash.com/400x208/?ux,design" alt="UX Design">
+                            </div>
+                            <div class="blog-card__content">
+                                <h3>UX Design Trends 2025</h3>
+                                <p>The latest trends in user experience design and their impact on digital products...</p>
+                                <button class="btn btn--outline">READ MORE</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="text-center mt-32">
+                        <button class="btn btn--outline" disabled>Load More</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- CAREERS PAGE -->
+        <section class="page" id="careers-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Join Our Team</h1>
+                    <p>Build your career with a company that values innovation and growth</p>
+                </div>
+            </div>
+            
+            <section class="section">
+                <div class="container">
+                    <h2 class="section__title">Why Join Us</h2>
+                    <div class="grid grid--2">
+                        <div class="benefit-card card">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Innovation</h3>
+                            <p>Work on cutting-edge projects with the latest technologies</p>
+                        </div>
+                        <div class="benefit-card card">
+                            <i class="fas fa-users"></i>
+                            <h3>Team Culture</h3>
+                            <p>Collaborative environment with talented professionals</p>
+                        </div>
+                        <div class="benefit-card card">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Growth</h3>
+                            <p>Continuous learning and career advancement opportunities</p>
+                        </div>
+                        <div class="benefit-card card">
+                            <i class="fas fa-balance-scale"></i>
+                            <h3>Work-Life Balance</h3>
+                            <p>Flexible working arrangements and comprehensive benefits</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <h2 class="section__title">Open Positions</h2>
+                    <div class="jobs-table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Position</th>
+                                    <th>Department</th>
+                                    <th>Location</th>
+                                    <th>Type</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Senior Full Stack Developer</td>
+                                    <td>Engineering</td>
+                                    <td>San Francisco, CA</td>
+                                    <td>Full-time</td>
+                                    <td><button class="btn btn--primary btn--sm">Apply</button></td>
+                                </tr>
+                                <tr>
+                                    <td>UX/UI Designer</td>
+                                    <td>Design</td>
+                                    <td>New York, NY</td>
+                                    <td>Full-time</td>
+                                    <td><button class="btn btn--primary btn--sm">Apply</button></td>
+                                </tr>
+                                <tr>
+                                    <td>DevOps Engineer</td>
+                                    <td>Engineering</td>
+                                    <td>Austin, TX</td>
+                                    <td>Full-time</td>
+                                    <td><button class="btn btn--primary btn--sm">Apply</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Project Manager</td>
+                                    <td>Operations</td>
+                                    <td>Chicago, IL</td>
+                                    <td>Full-time</td>
+                                    <td><button class="btn btn--primary btn--sm">Apply</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Data Scientist</td>
+                                    <td>Analytics</td>
+                                    <td>Seattle, WA</td>
+                                    <td>Full-time</td>
+                                    <td><button class="btn btn--primary btn--sm">Apply</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- WORKSHOP PAGE -->
+        <section class="page" id="workshop-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Technology Workshop</h1>
+                    <p>Hands-on learning experience with industry experts</p>
+                </div>
+            </div>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="workshop-content">
+                        <h2>Workshop Agenda</h2>
+                        <ul class="agenda-list">
+                            <li>
+                                <h3>Introduction to Modern Web Development</h3>
+                                <p>Overview of current technologies and best practices</p>
+                            </li>
+                            <li>
+                                <h3>Hands-on Coding Session</h3>
+                                <p>Build a real application with guided instruction</p>
+                            </li>
+                            <li>
+                                <h3>DevOps and Deployment</h3>
+                                <p>Learn about CI/CD pipelines and cloud deployment</p>
+                            </li>
+                            <li>
+                                <h3>Q&A and Networking</h3>
+                                <p>Connect with industry professionals and get your questions answered</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <h2 class="section__title">Workshop Benefits</h2>
+                    <div class="grid grid--3">
+                        <div class="benefit card">
+                            <i class="fas fa-code"></i>
+                            <h3>Practical Skills</h3>
+                            <p>Learn by building real applications</p>
+                        </div>
+                        <div class="benefit card">
+                            <i class="fas fa-certificate"></i>
+                            <h3>Certificate</h3>
+                            <p>Receive completion certificate</p>
+                        </div>
+                        <div class="benefit card">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Networking</h3>
+                            <p>Connect with industry professionals</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section class="page" id="contact-page">
+            <div class="hero hero--small">
+                <div class="container">
+                    <h1>Get In Touch</h1>
+                    <p>Ready to start your project? Let's discuss how we can help</p>
+                </div>
+            </div>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="contact-process">
+                        <h2>Our Process</h2>
+                        <div class="process-steps">
+                            <div class="process-step">
+                                <div class="step-number">1</div>
+                                <h3>Discovery</h3>
+                                <p>We learn about your business needs and goals</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">2</div>
+                                <h3>Strategy</h3>
+                                <p>We develop a customized solution strategy</p>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">3</div>
+                                <h3>Delivery</h3>
+                                <p>We execute and deliver exceptional results</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="contact-content">
+                        <div class="contact-form-container">
+                            <h2>Send us a message</h2>
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="company" class="form-label">Company</label>
+                                    <input type="text" id="company" name="company" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="budget" class="form-label">Budget Range</label>
+                                    <select id="budget" name="budget" class="form-control">
+                                        <option value="">Select Budget Range</option>
+                                        <option value="10k-50k">$10K - $50K</option>
+                                        <option value="50k-100k">$50K - $100K</option>
+                                        <option value="100k-250k">$100K - $250K</option>
+                                        <option value="250k+">$250K+</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                            </form>
+                        </div>
+                        
+                        <div class="office-locations">
+                            <h2>Our Offices</h2>
+                            <div class="grid grid--2">
+                                <div class="office card">
+                                    <h3>San Francisco</h3>
+                                    <p>123 Tech Street<br>San Francisco, CA 94105<br>+1 (555) 123-4567</p>
+                                </div>
+                                <div class="office card">
+                                    <h3>New York</h3>
+                                    <p>456 Innovation Ave<br>New York, NY 10001<br>+1 (555) 234-5678</p>
+                                </div>
+                                <div class="office card">
+                                    <h3>London</h3>
+                                    <p>789 Digital Lane<br>London, UK EC1A 1BB<br>+44 20 1234 5678</p>
+                                </div>
+                                <div class="office card">
+                                    <h3>Singapore</h3>
+                                    <p>321 Future Road<br>Singapore 018956<br>+65 6123 4567</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Portfolio Modal -->
+    <div class="modal" id="portfolio-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__body">
+                <h2>Case Study Details</h2>
+                <p>This is a placeholder for the detailed case study information. In a real implementation, this would contain comprehensive information about the project, including challenges, solutions, technologies used, and results achieved.</p>
+                <p>The case study would typically include:</p>
+                <ul>
+                    <li>Project overview and objectives</li>
+                    <li>Technical challenges and solutions</li>
+                    <li>Technologies and methodologies used</li>
+                    <li>Results and impact metrics</li>
+                    <li>Client testimonials</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Closeloop Clone</h3>
+                    <p>Bringing awesome ideas to life through innovative technology solutions.</p>
+                    <div class="footer__social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer__section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="about">About</a></li>
+                        <li><a href="#" data-page="services">Services</a></li>
+                        <li><a href="#" data-page="portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#" data-page="services-custom">Custom Software</a></li>
+                        <li><a href="#" data-page="services-commerce">Digital Commerce</a></li>
+                        <li><a href="#" data-page="services-ai">Generative AI</a></li>
+                        <li><a href="#" data-page="services-salesforce">Salesforce</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Contact</h4>
+                    <p>+1 (555) 123-4567<br>info@closeloop.com</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Closeloop Clone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
